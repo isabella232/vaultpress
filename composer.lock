@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a720c25382384216d9c090712cf86d48",
+    "content-hash": "65651c54cf5db729b799ebf2dfc342e4",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -44,23 +44,25 @@
         },
         {
             "name": "automattic/jetpack-logo",
-            "version": "v1.2.0",
+            "version": "v1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-logo.git",
-                "reference": "d7840f25d7836ab69de979bcb67e8190220e53a3"
+                "reference": "aa008df2e86ce656076a0b3d364b43fb43231aa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-logo/zipball/d7840f25d7836ab69de979bcb67e8190220e53a3",
-                "reference": "d7840f25d7836ab69de979bcb67e8190220e53a3",
+                "url": "https://api.github.com/repos/Automattic/jetpack-logo/zipball/aa008df2e86ce656076a0b3d364b43fb43231aa0",
+                "reference": "aa008df2e86ce656076a0b3d364b43fb43231aa0",
                 "shasum": ""
             },
             "require-dev": {
-                "php-mock/php-mock": "^2.1",
-                "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5"
+                "yoast/phpunit-polyfills": "0.2.0"
             },
             "type": "library",
+            "extra": {
+                "mirror-repo": "Automattic/jetpack-logo"
+            },
             "autoload": {
                 "classmap": [
                     "src/"
@@ -71,7 +73,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "A logo for Jetpack",
-            "time": "2020-03-27T21:57:58+00:00"
+            "time": "2021-01-19T14:25:39+00:00"
         }
     ],
     "packages-dev": [
